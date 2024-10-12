@@ -1,0 +1,38 @@
+body {
+    width: 100%;
+    background: #1e1e1e;
+    color: #ffffff82;
+}
+.chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+h1 {
+    text-align: center;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.graph {
+    margin: auto;
+    width: 80vw;
+    max-width: 400px;
+    height: auto;
+    border: 4px solid #ffffff5b;
+    resize: both;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all .1s;
+    resize: both;
+    overflow: hidden;
+}
+.text {
+    padding: 5px 10px;
+    padding-bottom: 7px;
+    border-radius: 20px;
+    background: #ffffff10;
+    color: #909090;
+    width: max-content;
+    cursor: pointer;
+}
